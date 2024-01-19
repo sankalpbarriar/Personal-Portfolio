@@ -3,39 +3,46 @@
     {
       "date": "19/01/2024",
       "title": "PORTFOLIO",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "description": "This is a Peronal potfolio website built using ReactJs and sass it uses Firebase as Backend as a service",
       "url": "/",
-      "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
+      "imgSrc": "https://i.ibb.co/S3YX4sz/proj1-0.png"
     },
 
     {
-      "date": "11/10/2022",
-      "title": "BTECH BURGER WALA",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://react-video-app-eight.vercel.app",
-      "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
+      "date": "6/1/2024",
+      "title": "GITHUB SEARCH",
+      "description": "This is a Profile Search app Built with NextJS and Chakra Ui which enables a user to see the userdata from Github API",
+      "url": "https://frolicking-sunshine-685c01.netlify.app",
+      "imgSrc": "https://i.ibb.co/xXB0KpF/Proj1-1.png"
     },
     {
-      "date": "15/10/2022",
+      "date": "15/12/2023",
       "title": "BLOG APP",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://react-crypto-app-pi.vercel.app",
+      "description": "This is a fullstack Blog website which uses Appwrite as Backend as a service ,it is loaded with lot of functionalities",
+      "url": "/",
       "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
     },
 
     {
-      "date": "17/10/2022",
-      "title": "GITHUB SEARCH APP",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-      "url": "https://react-cart-eosin.vercel.app",
-      "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+      "date": "17/11/2023",
+      "title": "BTECH BURGER WALA",
+      "description": "Food purchasing website with full backend and redux implementation.",
+      "url": "https://bejewelled-bavarois-3660a9.netlify.app/",
+      "imgSrc": "https://i.ibb.co/Q9hyHps/proj1-2.png"
     },
     {
-      "date": "20/10/2022",
-      "title": "PORTFOLIO",
-      "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+      "date": "20/10/2023",
+      "title": "MOVIE GUIDE APP",
+      "description": "Search about your favorite Movie Ratings ★. It is a simple JS website that fetches data from OMDb API",
       "url": "/",
-      "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+      "imgSrc": "https://i.ibb.co/YQytB4K/proj1.png"  
+    },
+    {
+      "date": "12/8/2023",
+      "title": "TO DO APPLICATION",
+      "description": "A siple TODO application built using React having the functionallity of Local storage",
+      "url": "https://65aad677820865007253374d--sensational-jelly-9fab31.netlify.app/",
+      "imgSrc": "https://i.ibb.co/py0qyCW/proj4.png"  
     }
   ]
 }

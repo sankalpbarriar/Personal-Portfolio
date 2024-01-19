@@ -2,20 +2,20 @@ import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
-import me from "../assets/founder.png";
+import me from "../assets/profile-pic.png";
 
-const Home = () => {
+const Home = ({ratio}) => {
   const clientCount = useRef(null);
   const projectCount = useRef(null);
 
   const animationClientsCount = () => {
-    animate(0, 100, {
+    animate(0, 0, {
       duration: 1,
       onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
     });
   };
   const animationProjectsCount = () => {
-    animate(0, 500, {
+    animate(0, 20, {
       duration: 1,
       onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
     });
@@ -75,10 +75,12 @@ const Home = () => {
           <article>
             <p>
               +
-              <motion.span
+              
+                <motion.span
                 whileInView={animationClientsCount}
                 ref={clientCount}
               ></motion.span>
+             
             </p>
             <span>Clients Worldwide</span>
           </article>
@@ -87,10 +89,12 @@ const Home = () => {
             <article>
               <p>
                 +
-                <motion.span
+                
+                  <motion.span
                   ref={projectCount}
                   whileInView={animationProjectsCount}
                 ></motion.span>
+                
               </p>
               <span>Projects Created</span>
             </article>

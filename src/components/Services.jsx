@@ -41,7 +41,7 @@ const Services = () => {
           initial={animations.twoAndThree}
         >
           <AiFillIeCircle />
-          <span>Web Development</span>
+          <span>FullStack Development</span>
         </motion.div>
         <motion.div
           className="serviceBox3"
@@ -58,7 +58,7 @@ const Services = () => {
           initial={animations.four}
         >
           <AiFillWindows />
-          <p>Desktop Development</p>
+          <p>UI/UX</p>
         </motion.div>
       </section>
     </div>
