@@ -31,10 +31,17 @@
       "imgSrc": "https://i.ibb.co/Q9hyHps/proj1-2.png"
     },
     {
+      "date": "12/11/2023",
+      "title": "DARK MODE TOGGLER",
+      "description": "A Theme switcher icon executed in buitiful card it brushes the funndamentals of context APIs",
+      "url": "https://65ab6c4a93d77d5955eafe37--dazzling-meerkat-33fd8e.netlify.app/",
+      "imgSrc": "https://i.ibb.co/g9cnzvk/proj5.png"
+    },
+    {
       "date": "20/10/2023",
       "title": "MOVIE GUIDE APP",
       "description": "Search about your favorite Movie Ratings ★. It is a simple JS website that fetches data from OMDb API",
-      "url": "/",
+      "url": "https://65ab6df5f147bb5fa65d1716--dreamy-pixie-0a6ef8.netlify.app/",
       "imgSrc": "https://i.ibb.co/YQytB4K/proj1.png"  
     },
     {
@@ -43,6 +50,13 @@
       "description": "A siple TODO application built using React having the functionallity of Local storage",
       "url": "https://65aad677820865007253374d--sensational-jelly-9fab31.netlify.app/",
       "imgSrc": "https://i.ibb.co/py0qyCW/proj4.png"  
+    },
+    {
+      "date": "2/7/2023",
+      "title": "RECIPIE APP",
+      "description": "A spice JS application that have a search button to know about your favourite recipies.",
+      "url": "https://65ab6dc82b4752602e0cc5ae--rad-gaufre-d3fb18.netlify.app/",
+      "imgSrc": "https://i.ibb.co/GQKDrGQ/proj2.png"  
     }
   ]
 }
