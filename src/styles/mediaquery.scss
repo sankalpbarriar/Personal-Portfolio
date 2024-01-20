@@ -340,6 +340,7 @@
     }
     #skills{
         height: 45vh;
+        overflow-y: hidden;
         >section>div>a{
             font-size: 4rem;
               margin-right: 8px;
