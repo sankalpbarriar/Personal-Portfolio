@@ -3,6 +3,8 @@
     height: 70vh;
     background-color: $color1;
     color: $color5;
+    overflow-x: hidden;
+    overflow-y: hidden;
   
     > section {
       background-color: $color1;

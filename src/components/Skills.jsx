@@ -21,11 +21,11 @@ const Skills = () => {
             <a href="https://nextjs.org/docs" target='_blank'><SiNextdotjs/></a>
             <a href="https://console.firebase.google.com/?fb_gclid=Cj0KCQiA2KitBhCIARIsAPPMEhLG2qT5SukvrgrwHAzKgPGWvsDDyjN6wD1G0_QmgC3KiqOT3qlDVfgaAtGaEALw_wcB&_gl=1*163bdh8*_ga*MTE4MDM5NjE0LjE3MDU2NjE2ODE.*_ga_CW55HF8NVT*MTcwNTY2MTY4MS4xLjAuMTcwNTY2MTY4My41OC4wLjA.&pli=1" target='_blank'><SiFirebase /></a>
             <a href="https://appwrite.io/" target='_blank'><SiAppwrite /></a>
-            <a href="" target='_blank'><SiNodedotjs /></a>
+            <a href="https://nodejs.org/docs/latest/api/" target='_blank'><SiNodedotjs /></a>
             <a href="https://redux.js.org/redux-toolkit/overview" target='_blank'><SiRedux /></a>
-            <a href="" target='_blank'><SiMongodb /></a>
-            <a href="" target='_blank'><SiDocker /></a>
-            <a href="" target='_blank'><SiGithub /></a>
+            <a href="https://www.mongodb.com/docs/" target='_blank'><SiMongodb /></a>
+            <a href="https://docs.docker.com/guides/get-started/" target='_blank'><SiDocker /></a>
+            <a href="https://github.com/sankalpbarriar" target='_blank'><SiGithub /></a>
             <a href="https://learning.postman.com/docs/introduction/overview/" target='_blank'><SiPostman /></a>
             </div>
         </section>
