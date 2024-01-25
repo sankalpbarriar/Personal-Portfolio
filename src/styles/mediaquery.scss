@@ -339,14 +339,15 @@
       }
     }
     #skills{
-        height: 45vh;
+        height: 40vh;
         overflow-y: hidden;
         >section>div>a{
             font-size: 4rem;
               margin-right: 8px;
         }
     }
-  
+    
+    
     #contact {
       grid-template-columns: 1fr;
       > aside {
@@ -354,3 +355,4 @@
       }
     }
   }
+  

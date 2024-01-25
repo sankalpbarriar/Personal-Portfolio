@@ -1,5 +1,6 @@
 import React from "react";
-import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMenu  } from "react-icons/ai";
+import {SiLeetcode} from "react-icons/si"
 
 const Header = ({ setMenuOpen, menuOpen }) => {
   return (
@@ -50,9 +51,14 @@ const NavContent = ({ setMenuOpen }) => (
         Contact
       </a>
     </div>
+    
+    <a href="#leetcode" className="leet">
+      <button className="leet"><SiLeetcode/></button>
+    </a>
     <a href="mailto:official.6packprogrammer@gmail.com">
       <button>Email</button>
     </a>
+    
   </>
 );
 

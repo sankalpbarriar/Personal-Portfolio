@@ -1,6 +1,6 @@
 footer {
   min-width: 100px;
-  background-color: $color5;
+  background-color: $color6;
   color: $color4;
   padding: 6rem 0;
   padding-left: $p;
@@ -29,7 +29,7 @@ footer {
   }
   > aside > article {
     margin-top: 1rem;
-    display: felx;
+    display: flex;
     flex-direction: column;
     align-items: center;
     svg {

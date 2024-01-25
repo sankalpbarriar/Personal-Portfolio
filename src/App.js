@@ -8,8 +8,10 @@ import Services from "./components/Services";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Leetcode from "./components/Leetcode";
 import { Toaster } from "react-hot-toast";
 import { useEffect, useState } from "react";
+
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -34,6 +36,7 @@ function App() {
       <Work />
       <Timeline />
       <Services />
+      <Leetcode />
       <Skills />
       <Contact />
       <Toaster />
