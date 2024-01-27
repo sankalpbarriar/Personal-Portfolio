@@ -46,6 +46,14 @@ function Leetcode() {
     ).toFixed(2);
   };
 
+  const handleTouchStart = () => {
+    setIsHovered(true);
+  };
+
+  const handleTouchEnd = () => {
+    setIsHovered(false);
+  };
+
   return (
     <div id="leetcode">
       <section>
@@ -53,11 +61,9 @@ function Leetcode() {
         <div>
           <div className="div1">
             <Tooltip isOpen={isHovered} placement="top">
-              <CircularProgress
-                size="250px"
-                value={
-                  (leetcodeData.totalSolved / leetcodeData.totalQuestions) * 100
-                }
+            <CircularProgress
+                size={["150px", "230px"]} 
+                value={(leetcodeData.totalSolved / leetcodeData.totalQuestions) * 100}
                 max={100}
                 thickness="4px"
                 color="orange"
@@ -65,8 +71,11 @@ function Leetcode() {
                 transition="0.3s ease-in-out"
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
+                onTouchStart={handleTouchStart}
+                onTouchEnd={handleTouchEnd}
+                
               >
-                <CircularProgressLabel color={"white"} fontSize={50}>
+                <CircularProgressLabel color={"white"} fontSize={["30px","45px"]}>
                   {isHovered
                     ? calculatePercentage() + "%"
                     : leetcodeData.totalSolved}
@@ -80,56 +89,67 @@ function Leetcode() {
             </Box>
           </div>
           <div className="div2">
-            <ChakraProvider>
-              <Stack spacing={3}>
-                <Flex align="center">
-                  <Text fontSize="lg" color={"white"} marginRight="2">
-                    Easy
-                  </Text>
-                  <Text fontSize="lg" color={"rgba(255, 255, 255, 0.7)"} marginLeft="2">
-                    {`${leetcodeData.easySolved} / ${leetcodeData.totalEasy}`}
-                  </Text>
-                </Flex>
-                <Progress
-                  colorScheme="green"
-                  size="lg"
-                  value={(leetcodeData.easySolved / leetcodeData.totalEasy) * 100}
-                  height="30px"
-                />
+          <ChakraProvider>
+  <Stack spacing={3}>
+    <Flex align="center">
+      <Text fontSize={{ base: "md", lg: "lg" }} color={"white"} marginRight="2">
+        Easy
+      </Text>
+      <Text
+        fontSize={{ base: "sm", lg: "lg" }}
+        color={"rgba(255, 255, 255, 0.7)"}
+        marginLeft="2"
+      >
+        {`${leetcodeData.easySolved} / ${leetcodeData.totalEasy}`}
+      </Text>
+    </Flex>
+    <Progress
+      colorScheme="green"
+      size="lg"
+      value={(leetcodeData.easySolved / leetcodeData.totalEasy) * 100}
+      height={{ base: "20px", lg: "30px" }}
+    />
 
-                <Flex align="center">
-                  <Text fontSize="lg" color={"white"} marginRight="2">
-                    Medium
-                  </Text>
-                  <Text fontSize="lg" color={"rgba(255, 255, 255, 0.7)"} marginLeft="2">
-                    {`${leetcodeData.mediumSolved} / ${leetcodeData.totalMedium}`}
-                  </Text>
-                </Flex>
-                <Progress
-                  colorScheme="yellow"
-                  size="lg"
-                  value={
-                    (leetcodeData.mediumSolved / leetcodeData.totalMedium) * 100
-                  }
-                  height="30px"
-                />
+    <Flex align="center">
+      <Text fontSize={{ base: "md", lg: "lg" }} color={"white"} marginRight="2">
+        Medium
+      </Text>
+      <Text
+        fontSize={{ base: "sm", lg: "lg" }}
+        color={"rgba(255, 255, 255, 0.7)"}
+        marginLeft="2"
+      >
+        {`${leetcodeData.mediumSolved} / ${leetcodeData.totalMedium}`}
+      </Text>
+    </Flex>
+    <Progress
+      colorScheme="yellow"
+      size="lg"
+      value={(leetcodeData.mediumSolved / leetcodeData.totalMedium) * 100}
+      height={{ base: "20px", lg: "30px" }}
+    />
 
-                <Flex align="center">
-                  <Text fontSize="lg" color={"white"} marginRight="2">
-                    Hard
-                  </Text>
-                  <Text fontSize="lg" color={"rgba(255, 255, 255, 0.7)"} marginLeft="2">
-                    {`${leetcodeData.hardSolved} / ${leetcodeData.totalHard}`}
-                  </Text>
-                </Flex>
-                <Progress
-                  colorScheme="red"
-                  size="lg"
-                  value={(leetcodeData.hardSolved / leetcodeData.totalHard) * 100}
-                  height="30px"
-                />
-              </Stack>
-            </ChakraProvider>
+    <Flex align="center">
+      <Text fontSize={{ base: "md", lg: "lg" }} color={"white"} marginRight="2">
+        Hard
+      </Text>
+      <Text
+        fontSize={{ base: "sm", lg: "lg" }}
+        color={"rgba(255, 255, 255, 0.7)"}
+        marginLeft="2"
+      >
+        {`${leetcodeData.hardSolved} / ${leetcodeData.totalHard}`}
+      </Text>
+    </Flex>
+    <Progress
+      colorScheme="red"
+      size="lg"
+      value={(leetcodeData.hardSolved / leetcodeData.totalHard) * 100}
+      height={{ base: "20px", lg: "30px" }}
+    />
+  </Stack>
+</ChakraProvider>
+
           </div>
         </div>
       </section>
