@@ -9,10 +9,16 @@ footer {
   align-items: center;
   justify-items: center;
   text-align: center;
+  
   > div {
     width: 100%;
     border-left: 2px solid $color4;
     border-right: 2px solid $color4;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    
     > img {
       width: 100px;
       height: 100px;
@@ -33,6 +39,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     svg {
       font-size: 2rem;
       color: $color4;
@@ -49,6 +56,7 @@ footer {
     border-radius: 50%;
     display: grid;
     place-items: center;
+    
     svg {
       font-size: 2rem;
       color: $color3;
