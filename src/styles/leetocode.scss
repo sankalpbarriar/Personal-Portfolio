@@ -68,12 +68,10 @@
 
       > div {
         flex-direction: column;
-        overflow-y: hidden;
+        overflow: hidden;
         padding: 1rem;
         
-        
-        
-
+      
         .div1,
         .div2 {
           width: 100%;

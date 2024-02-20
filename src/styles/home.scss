@@ -45,7 +45,9 @@
               align-items: center;
             }
           }
+          
         }
+        
         aside {
           display: flex;
           justify-content: space-between;
@@ -102,4 +104,16 @@
     animation: animateSvg 0.7s infinite linear alternate;
   }
 }
+
+.download_link{
+  animation: upanddown 0.4s infinite ease-in alternate;
+  >a{
+    font: 600 2.2rem $text2;
+    &:hover{
+      color: $color5;
+    }
+    
+  }
+}
+
 

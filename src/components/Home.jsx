@@ -2,9 +2,10 @@ import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
+import { FaFileDownload } from "react-icons/fa";
 import me from "../assets/profile-pic.png";
 
-const Home = ({ratio}) => {
+const Home = ({ ratio }) => {
   const clientCount = useRef(null);
   const projectCount = useRef(null);
 
@@ -65,22 +66,27 @@ const Home = ({ratio}) => {
               wrapperClassName: "typewriterpara",
             }}
           />
+
           <div>
             <a href="mailto:sankalpbarriar10@gmail.com">Hire Me</a>
             <a href="#work">
               Projects <BsArrowUpRight />
             </a>
+            <div className="download_link">
+              <a target="_blank" href="https://drive.google.com/file/d/1I4WO5GrZPdYdItd7RIFzHrNOqH3aBld4/view?usp=drive_link" >
+                <FaFileDownload />
+              </a>
+              
+            </div>
           </div>
 
           <article>
             <p>
               +
-              
-                <motion.span
+              <motion.span
                 whileInView={animationClientsCount}
                 ref={clientCount}
               ></motion.span>
-             
             </p>
             <span>Clients Worldwide</span>
           </article>
@@ -89,12 +95,10 @@ const Home = ({ratio}) => {
             <article>
               <p>
                 +
-                
-                  <motion.span
+                <motion.span
                   ref={projectCount}
                   whileInView={animationProjectsCount}
                 ></motion.span>
-                
               </p>
               <span>Projects Created</span>
             </article>
