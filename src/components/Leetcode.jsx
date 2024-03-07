@@ -48,7 +48,7 @@ function Leetcode() {
     const fetchData = async () => {
       try {
         const res = await fetch(
-          "https://leetcode-api-faisalshohag.vercel.app/sankalp_barriar"
+          "https://leetcode-stats-api.herokuapp.com/sankalp_barriar"
         );
         const data = await res.json();
 

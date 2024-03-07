@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "date": "29/02/2024",
+      "title": "MUSICPHILLIC",
+      "description": "This is a complete fronend project built with Typescript,NextJS,Accertinity UI aims to deliver courses related to music..",
+      "url": "https://musicophillic.netlify.app/",
+      "imgSrc": "https://i.ibb.co/3MvtXnR/proj6.png"
+    },
+    {
       "date": "19/01/2024",
       "title": "PORTFOLIO",
       "description": "This is a Peronal potfolio website built using ReactJs and sass it uses Firebase as Backend as a service",
