@@ -73,7 +73,7 @@ const Home = ({ ratio }) => {
               Projects <BsArrowUpRight />
             </a>
             <div className="download_link">
-              <a target="_blank" href="https://drive.google.com/file/d/1I4WO5GrZPdYdItd7RIFzHrNOqH3aBld4/view?usp=drive_link" >
+              <a target="_blank" href="https://drive.google.com/file/d/1MIko_eBmHpsGGfivNEdfYSnsaTkWbEVR/view?usp=sharing" >
                 <FaFileDownload />
               </a>
               
