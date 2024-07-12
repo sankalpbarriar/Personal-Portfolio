@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/protfolio-app-react/static/css/main.fdaa31c9.css",
+    "main.js": "/protfolio-app-react/static/js/main.379409b2.js",
+    "static/media/vg3.4.png": "/protfolio-app-react/static/media/vg3.4.86f9b8b5821df72cfc44.png",
+    "static/media/profile-pic.png": "/protfolio-app-react/static/media/profile-pic.67502d841749d81a5392.png",
+    "index.html": "/protfolio-app-react/index.html",
+    "main.fdaa31c9.css.map": "/protfolio-app-react/static/css/main.fdaa31c9.css.map",
+    "main.379409b2.js.map": "/protfolio-app-react/static/js/main.379409b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdaa31c9.css",
+    "static/js/main.379409b2.js"
+  ]
+}
