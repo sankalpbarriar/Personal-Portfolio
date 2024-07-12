@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import Leetcode from "./components/Leetcode";
 import { Toaster } from "react-hot-toast";
 import { useEffect, useState } from "react";
+import { DarkModeProvider } from "./context/DarkModeContext";
 
 
 function App() {

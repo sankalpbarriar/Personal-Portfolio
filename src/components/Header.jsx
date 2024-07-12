@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { AiOutlineMenu  } from "react-icons/ai";
 import {SiLeetcode} from "react-icons/si"
+import { DarkModeContext } from "../context/DarkModeContext";
 
 const Header = ({ setMenuOpen, menuOpen }) => {
+  const {darkMode}=useContext(DarkModeContext);
   return (
     <>
       <nav>
@@ -55,7 +57,7 @@ const NavContent = ({ setMenuOpen }) => (
     <a href="#leetcode" className="leet">
       <button className="leet"><SiLeetcode/></button>
     </a>
-    <a href="mailto:official.6packprogrammer@gmail.com">
+    <a href="mailto:sankalpbarriar10@gmail.com">
       <button>Email</button>
     </a>
     
